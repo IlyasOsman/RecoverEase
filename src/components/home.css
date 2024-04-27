@@ -1,0 +1,56 @@
+.home-container {
+  height: 100vh;
+  padding-top: 150px;
+
+  background-color: #f8f9fa;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("helpchildren.jpg");
+  background-size: cover;
+
+  display: flex;
+
+  justify-content: center;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.home-text {
+  color: #fff;
+  width: 900px;
+  text-align: center;
+}
+.title {
+  font-size: 72px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.title span {
+  color: #e67700;
+}
+
+.description {
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.btn button {
+  background-color: #f08c00;
+  padding: 12px 32px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.btn button:hover {
+  background-color: #e67700;
+}

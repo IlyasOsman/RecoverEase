@@ -5,9 +5,7 @@ import Navbar from "./Navbar";
 const Layout = () => {
   return (
     <div className="flex flex-col min-h-screen bg-primary">
-      <div
-        className={`${styles.paddingX} ${styles.flexCenter} border-b-[0.1px] border-gray-200`}
-      >
+      <div className={`${styles.paddingX} ${styles.flexCenter} `}>
         <div className={`${styles.boxWidth}`}>
           <Navbar />
         </div>
@@ -18,9 +16,7 @@ const Layout = () => {
       </div>
 
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-        <div className={`${styles.boxWidth}`}>
-          {/* <Footer /> */}
-        </div>
+        <div className={`${styles.boxWidth}`}>{/* <Footer /> */}</div>
       </div>
     </div>
   );
