@@ -1,0 +1,48 @@
+.home-container {
+  height: 95vh;
+  padding: 50px;
+
+  background-color: #f8f9fa;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("helpchildren.jpg");
+  background-size: cover;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.home-text {
+  color: #fff;
+  width: 900px;
+}
+.title {
+  font-size: 64px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 24px;
+  line-height: 2;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.btn button {
+  background-color: orange;
+  padding: 12px 32px;
+
+  color: #fff;
+}
