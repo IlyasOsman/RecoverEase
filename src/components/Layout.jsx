@@ -18,9 +18,7 @@ const Layout = () => {
       </div>
 
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-        <div className={`${styles.boxWidth}`}>
-          {/* <Footer /> */}
-        </div>
+        <div className={`${styles.boxWidth}`}>{/* <Footer /> */}</div>
       </div>
     </div>
   );
