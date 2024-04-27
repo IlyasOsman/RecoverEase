@@ -11,24 +11,25 @@
   color: #343a40;
 }
 
-.form-header {
+.form-header h1 {
   font-size: 35px;
   font-weight: bold;
 }
 
-form {
+.login-form {
+  width: 400px;
   padding: 20px;
   border-radius: 5px;
 }
 
-label {
+.login-form label {
   display: block;
   margin-bottom: 5px;
   font-size: 18px;
 }
 
-input[type="text"],
-input[type="password"] {
+.login-form input[type="text"],
+.login-form input[type="password"] {
   width: 100%;
   padding: 5px;
   margin-bottom: 10px;
@@ -36,7 +37,12 @@ input[type="password"] {
   border-radius: 3px;
 }
 
-button[type="submit"] {
+.login-form input:focus {
+  outline: none;
+  border: 1px solid #868e96;
+}
+
+.login-form button[type="submit"] {
   width: 100%;
   padding: 10px;
   background-color: #007bff;
@@ -45,22 +51,30 @@ button[type="submit"] {
   border-radius: 10px;
   cursor: pointer;
   margin: 30px 0;
+
+  font-size: 18px;
 }
 
-button[type="submit"]:hover {
+.login-form button[type="submit"]:hover {
   background-color: #0056b3;
 }
 
-p {
+.login-form p {
   margin-top: 15px;
   text-align: center;
 }
 
-p a {
+.login-form p a {
   color: #007bff;
   text-decoration: none;
 }
 
-p a:hover {
+.login-form p a:hover {
   text-decoration: underline;
+}
+
+.login-form .error {
+  color: red;
+  text-align: left;
+  font-size: 12px;
 }
