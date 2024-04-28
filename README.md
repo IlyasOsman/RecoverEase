@@ -1,7 +1,5 @@
 # RecoverEase
 
-# RecoverEase
-
 - [Project summary.](#project-summary)
     - [Inspiration.](#inspiration)
     - [How our tech solution can help](#how-our-tech-solution-can-help)
