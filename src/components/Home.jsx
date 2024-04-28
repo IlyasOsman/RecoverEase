@@ -4,6 +4,7 @@ const Home = () => {
   return (
     <section className="home-container">
       <div className="hero-section">
+
         <div className="home-text">
           <h1 className="title">
             UNITING <span>COMMUNITIES</span> IN CRISIS
@@ -15,7 +16,7 @@ const Home = () => {
           </p>
         </div>
         <div className="btn">
-          <button>Seek support</button>
+          <button>Seek Support</button>
           <button>Volunteer</button>
         </div>
       </div>

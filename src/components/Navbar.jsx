@@ -33,6 +33,7 @@ const Navbar = () => {
   ];
 
   return (
+    // Navigation Menu
     <nav className="w-full flex py-6 justify-between items-center navbar ">
       <Link to="/home">
         {/* <img src={logo} alt="res" className="w-[124px] h-[32px]" /> */}
